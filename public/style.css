@@ -34,3 +34,27 @@ display:grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
 }
+
+.tile{
+  margin:5%;
+  position:relative;
+}
+.tile label,
+.tile div{
+  display:block;
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background:rgba(0,0,0,0.10);
+  font-family:Raleway,Courier,'Courier New',Sans,sans-serif;
+  font-weight:bolder;
+}
+.tile div{
+  display:none;
+  overflow:hidden;
+  text-shadow:0 1px 6px rgba(0,0,0,0.85)
+}
+label[for$='-x
+]
