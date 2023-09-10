@@ -10,4 +10,27 @@ body {
   }
   
 /* Enter your styling here */
-@import url("https://")
+@import url('https://fonts.googleapis.com/css?family=Mandali/Raleway:900&display=swap');
+input[type="radio"]{
+position:absolute;
+top:-9999em;
+}
+
+html,body{
+  font-family:Mandali,Arial,sans-serif;
+  font-size:16px;
+}
+
+.center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate{-50%,-50%};
+}
+#board
+width:50vmin;
+height:50vmin;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+}
